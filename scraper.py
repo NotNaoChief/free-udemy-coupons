@@ -37,7 +37,6 @@ def convert_date(created_utc: int):
     return dt.datetime.fromtimestamp(created_utc)
 
 
-
 encoding_data = {
     '`': '%60',
     '@': '%40',
